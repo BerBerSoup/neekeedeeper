@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "BerBerSoup/Data Enemy")]
-public class DataEnemy : MonoBehaviour
+public class DataEnemy : DataBasic
 {
     [Header("±¼¸¨¸gÅç­È¾÷²v"), Range(0, 1)]
     public float expProbability;
