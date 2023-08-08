@@ -10,4 +10,6 @@ public class DataBasic : ScriptableObject
     public float attack;
     [Header("²¾°Ê³t«×"), Range(0, 100)]
     public float moveSpeed;
+
+
 }

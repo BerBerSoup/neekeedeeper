@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 595603c2221854645bced20f8d4d192f, type: 3}
-  m_Name: New Data Basic
+  m_Script: {fileID: 11500000, guid: ac3334d2e321ec64ca010fe514c3927f, type: 3}
+  m_Name: "\u6575\u4EBA"
   m_EditorClassIdentifier: 
-  hp: 0
-  attack: 0
-  moveSpeed: 0
+  expProbability: 0
+  prefabExp: {fileID: 0}
