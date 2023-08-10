@@ -1,3 +1,4 @@
+ï»¿using System.Threading;
 using UnityEngine;
 
 
@@ -5,17 +6,22 @@ using UnityEngine;
 public class AttackSystem : MonoBehaviour
 {
 
-    [Header("§ðÀ»")]
-    public Animation atkani1;
-    [Header("°õ¦æ§ðÀ»")]
-    public string parAtk = "§ðÀ»";
+    [Header("æ”»æ“Š")]
+    public Animator atkani1;
+    [Header("åŸ·è¡Œæ”»æ“Š")]
+    public string parAtk = "æ”»æ“Š";
 
-    private void Attack() 
+    private float timer;
+
+    private void Update()
     {
-        atkani1.SetBool(parAtk);
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKey(KeyCode.J))
         {
-            print("jjj");
+            atkani1.SetBool(parAtk, true);
+        }
+        else
+        {
+            atkani1.SetBool(parAtk, false);
         }
     }
 }
