@@ -1,5 +1,4 @@
-﻿using System.Threading;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 
@@ -10,9 +9,7 @@ public class AttackSystem : MonoBehaviour
     public Animator atkani1;
     [Header("執行攻擊")]
     public string parAtk = "攻擊";
-
-    private float timer;
-
+        
     private void Update()
     {
         if (Input.GetKey(KeyCode.J))

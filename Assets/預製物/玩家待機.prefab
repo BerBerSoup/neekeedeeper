@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea97465032c238841ac3041a2d8e2e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 8
   rig: {fileID: 1868675311}
   ani: {fileID: 8379932734294233382}
   parRun: "\u8DD1\u8D77\u4F86"
